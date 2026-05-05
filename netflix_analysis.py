@@ -43,7 +43,7 @@ except Exception as e:
 
 data = DataCleaning(file)
 data.info_on_data()
-data.data_description()
+print(data.data_description())
 data.empty_data()
 
 #create new csv for clean data
